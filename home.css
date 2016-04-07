@@ -1,0 +1,97 @@
+body {
+	background-color :#7BE382;
+}
+
+
+
+#header {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	/*background-color: #E81A46;*/
+	margin-right: 125px;
+}
+
+#header_wrapper {
+	height: 100px;
+	margin-right: 220px;
+	margin-left: 205px;
+	background : #99E8E3;
+	border: 2px solid #211287;
+	border-radius: 5%;
+}
+
+
+#main {
+	text-align: center;
+	margin-left: 210px;
+	margin-right: 225px;
+	margin-top: 10px;
+	height: inherit;
+	background-color: #E81A46;
+	border: 1px solid #E81A46;
+	border-radius: 4%;
+}
+
+
+#banner {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-family:"Book Antiqua";
+}
+
+#left {
+	height: 700px;
+	width : 200px;
+	float:left;
+	background-color: #BA1658;
+	position: absolute;
+	/*border: 1px solid #BA1658;
+	border-radius: 4%;*/
+}
+
+#right {
+	height: 700px;
+	width : 200px;
+	float: right;
+	background-color: #BA1658;
+	position: relative;
+	/*border: 1px solid #BA1658; 
+	border-radius: 4%;*/
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 100px;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	font-size:x-large;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-top: 10px;
+	font-family: Comic;
+	font-weight: bold;
+	font-style: italic;
+	color: #1DDBF0;
+}
+
+li a:hover {
+	background-color: #AD2FAB;
+	color : #5BE629;
+	-webkit-transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+}
+
+.heading {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 22px;
+	color: #D8F2EA;
+}
+
+

@@ -1,0 +1,147 @@
+body {
+	background-color :#7BE382;
+}
+
+
+
+#header {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	/*background-color: #E81A46;*/
+	margin-right: 125px;
+}
+
+#header_wrapper {
+	height: 100px;
+	margin-right: 220px;
+	margin-left: 205px;
+	background : #99E8E3;
+	border: 2px solid #211287;
+	border-radius: 4%;
+}
+
+
+#main {
+	margin-left: 15px;
+	margin-top: 15px;
+	height: inherit;
+}
+
+.lower {
+	width: 300px;
+	height: 155px;
+	background: red;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+	 
+}
+
+
+.lower:hover,.right:hover {
+    width: 800px;
+}
+
+#first_interest {
+	width: 400px;
+	height: 175px;
+	background: red;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+	 
+}
+
+
+#first_interest:hover {
+	width: 1100px;
+}
+
+.right {
+	float: right;
+	width: 360px;
+	height: 155px;
+	background: red;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+}
+
+
+
+#banner {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-family:"Book Antiqua";
+}
+
+#left {
+	height: 700px;
+	width : 200px;
+	float:left;
+	background-color: #BA1658;
+	position: absolute;
+	/*border: 1px solid #BA1658;
+	border-radius: 4%;*/
+}
+
+#right {
+	height: 700px;
+	width : 200px;
+	float: right;
+	background-color: #BA1658;
+	position: relative;
+	/*border: 1px solid #BA1658; 
+	border-radius: 4%;*/
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 100px;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	font-size:x-large;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-top: 10px;
+	font-family: Comic;
+	font-weight: bold;
+	font-style: italic;
+	color: #1DDBF0;
+}
+
+li a:hover {
+	background-color: #AD2FAB;
+	color : #5BE629;
+	-webkit-transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+	}
+
+.heading {
+	text-align: center;
+	padding-top: 50px;
+}
+
+@font-face {
+	font-family: myfont;
+	src: url(KaushanScript-Regular.otf);
+}
+
+#main_wrap {
+	width: inherit;
+	height: inherit;
+	margin: 15px 10px 0px 10px;
+}
+
+#content {
+	width: inherit;
+}
