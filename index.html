@@ -5,6 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Gaurav Mitra</title>
         <link rel="stylesheet" type="text/css" href="home.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     </head>
     <body>
         <div id="header">
@@ -12,11 +13,48 @@
 				<h1 id="banner">Welcome to Gaurav's World</h1>      		
         	</div>
         	<div id="main">
-					<img src="C:\Users\Gaurav Mitra\Desktop\The Blog Project\My Blog\Gaurav\pics\Display1.jpg"  style="width:680px;height:425px;margin-top: 5px;">
+					<img id="abc" src="Display1.jpg"  style="width:680px;height:425px;margin-top: 5px;" onmouseover="func()" onmouseout="func1()">
+					<script type="text/javascript">
+
+						function func() {
+							jQuery(function() {
+								$("#abc").fadeOut("3000");
+							});
+							document.getElementById("abc").src = "Display2.jpg";
+							var image = document.getElementById("abc"); 
+							//image.style.visibility = 'hidden';
+							jQuery(function() {
+								$("#abc").fadeIn("3000");
+							});
+							
+						}
+						function func1() {
+							jQuery(function() {
+								$("#abc").fadeOut("3000");
+							});
+							document.getElementById("abc").src = "Display1.jpg";
+							var image = document.getElementById("abc"); 
+							//image.style.visibility = 'hidden';
+							jQuery(function() {
+								$("#abc").fadeIn("3000");
+							});
+						}
+						/**function changeImg() {
+							window.alert("Hello");
+							var source = document.getElementById("disp");
+							if(source.src.match("Display1") {
+								source.src = "Display2.jpg"
+							}
+							else {
+								source.src = "Display1.jpg"
+							}
+						}**/
+					</script>
 				</div>
 			</div>  
         </div>
                 
+		
         
         
 	        <div id="left">
