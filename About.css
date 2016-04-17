@@ -106,3 +106,27 @@ li a:hover {
 #content {
 	width: inherit;
 }
+.right {
+	float: right;
+	width: 10px;
+	height : 100px;
+	background: red;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+}
+
+.lower {
+	width: 250px;
+	height: 35px;
+	background: red;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+	 
+}
+.lower:hover,.right:hover {
+    width: 900px;
+}
